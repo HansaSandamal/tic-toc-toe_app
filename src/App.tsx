@@ -6,6 +6,7 @@ import Header from "./layouts/Header";
 import Footer from "./layouts/Footer";
 import Game from "./view/Game";
 
+import './assetes/Main.scss';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
        <Header/>
         <Game/>
+
         <Footer/>
     </div>
   );

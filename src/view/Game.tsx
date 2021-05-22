@@ -1,6 +1,6 @@
 import React from "react";
 
-import Square from "../components/Square";
+
 import Board from "../components/Board";
 const Game:React.FC=()=>{
     return(
