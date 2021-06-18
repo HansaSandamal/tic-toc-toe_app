@@ -3,11 +3,13 @@ import React, {useState} from "react";
 type SquareProps = {
     isChanceOfX: boolean;
     setIsChanceOfX: (value: boolean) => void;
+    value: string
+    setValue:(value: string) => void;
 }
 
 const Square:React.FC<SquareProps>=(props)=>{
-    const {isChanceOfX, setIsChanceOfX} = props;
-    const [value, setValue] = useState(" ");
+    const {isChanceOfX, setIsChanceOfX,value,setValue} = props;
+    // const [value, setValue] = useState(" ");
 
     const handleClick = () => {
         if(value !== " ") {
