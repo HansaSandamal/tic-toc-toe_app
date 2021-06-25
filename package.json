@@ -2,7 +2,7 @@
   "name": "tic-toc-toe_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://HansaSandamal.github.io/tic-toc-toe_app",
+  "homepage": "https://hansasandamal.github.io/tic-toc-toe_app",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.12.0",
