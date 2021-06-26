@@ -76,23 +76,7 @@ const Board:React.FC<BoardProps>=(props)=>{
     }
     return(
             <Container className="m-auto">
-                {/*<Row>*/}
-                {/*    <Col xs={12}>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*    </Col>*/}
-                {/*    <Col xs={12}>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*    </Col>*/}
-                {/*    <Col xs={12}>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*        <Square isChanceOfX={isChanceOfX} setIsChanceOfX={setIsChanceOfX}/>*/}
-                {/*    </Col>*/}
-                {/*</Row>*/}
+
                 <div style={{maxWidth: '300px'}}>
                     {
                         render9Blocks()
