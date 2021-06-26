@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import './Square';
-import {Container,Col,Row} from "react-bootstrap";
+import {Container} from "react-bootstrap";
 import Square from "./Square";
 import Swal from 'sweetalert2';
 type BoardProps = {
